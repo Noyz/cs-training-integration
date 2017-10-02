@@ -1,0 +1,73 @@
+@font-face {
+    font-family: proxima nova;
+    src: url('../fonts/Mark Simonson - Proxima Nova Medium.otf');
+}
+
+button{
+    width: 10%;
+    height:30px;
+    min-width: 150px;
+    white-space: nowrap;
+    border: none;
+    background-color: #27B7FF;
+    color: #FFF;
+    font-size: 11px;
+    text-align: center;
+    text-transform: uppercase;
+    cursor: pointer;
+    text-decoration: none;
+    -webkit-transition: all .3s;
+    transition: all .3s;
+}
+.delete{
+    background-color:red;
+}
+.js-textareacopybtn{
+    background-color:#ffc533;
+    margin-bottom:10px;
+}
+body{
+    margin:0;
+    font-family:'proxima nova';
+}
+.wrapper{
+    max-width:1200px;
+    margin:0 auto;
+}
+#header{
+    height: 60px;
+    line-height: 60px;
+    text-align: center;
+    background-color: #3F454B;
+}
+.logo{
+    width:150px;
+}
+.logoImg{
+    margin: 10px 0;
+    width:100%;
+}
+main{
+    text-align:center;
+    font-family:'proxima nova';
+    max-width:1200px;
+    margin:0 auto;
+}
+h1{
+    font-family:proxima nova;
+}
+.result p{
+    margin:0;
+}
+ 
+.ip-textarea{
+    margin:0 auto;
+    display:block;
+    margin-bottom:10px;
+}
+
+.jsContentToCopy{
+    opacity:0;
+    height:0;
+    width:0
+}
